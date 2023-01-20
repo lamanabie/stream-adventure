@@ -6,6 +6,8 @@ const rl = readline.createInterface({
   terminal: false,
 });
 
+// async iterator
+
 for await (const line of rl) {
   console.log("for await: ", line);
 }

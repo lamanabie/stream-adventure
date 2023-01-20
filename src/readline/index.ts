@@ -6,6 +6,8 @@ const rl = readline.createInterface({
   terminal: false,
 });
 
+// rl - Readable
+
 rl.on("line", (line) => {
   console.log("rl.on.line: ", line);
 });
